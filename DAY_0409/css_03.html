@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a:link {/*아직 방문되지 않은 링크의 색상*/
+        text-decoration: none;
+        color:blue;
+    background-color: white;
+}
+    a:visited{/*방문된 링크의 색상*/
+    text-decoration: none;
+    color:green;}
+    a:hover{/*마우스가 링크 위에 있을 때 색상*/
+    text-decoration: none;
+    color : white;
+    background-color: blue;}
+    tr:nth-child(2n+1) {color:navy;} /* 홀수 번째 행 */
+    tr:nth-child(2n+0) {color:maroon;} /* 짝수 번째 행 */
+    </style>
+</head>
+<body>
+    <a href="http://www.naver.com." target="_blank"> This is a link.</a>
+
+    <table>
+        <caption>표</caption>
+        <tr>
+            <th>이름</th>
+            <th>나이</th>
+            <th>드라마</th>
+        </tr>
+        <tr>
+            <td>리쯔웨이</td>
+            <td>19</td>
+            <td>상견니</td>
+        </tr>
+        <tr>
+            <td>천윈루</td>
+            <td>19</td>
+            <td>상견니</td>
+        </tr>
+            <td>천샤오시</td>
+            <td>19</td>
+            <td>치아문단적소미호</td>
+    </table>
+</body>
+</html>

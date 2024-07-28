@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body em{color:red;} /* body 안의 자손 em 요소*/
+        body>h1 {color:blue;} /*body 안의 직계 자식 h1 요소 */
+    </style>
+</head>
+<body>
+    <h1>This headline is <em>very</em> important</h1> <!--<h1>은 body의 직계 자식-->
+    <p>
+        <ul>
+            <li><h1>목록 1</h1></li>
+            <li><h1>목록 2</h1></li> <!--<h1>은 body의 직계 자식이 아님(자손 관계)-->
+        </ul>
+    </p>    
+</body>
+</html>

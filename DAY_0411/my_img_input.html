@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Classifier</title>
+    <link type="text/css" rel="stylesheet" href="../css/my_style2.css">
+</head>
+<body>
+    <center>
+        <h1>작품의 주인 맞추기 모델</h1><hr color = 'blue' size = '2'>
+            <fieldset>
+                <h2>틀리면 다시 학습~!</h2><br>
+                <form action = '/cgi-bin/work_0411_김동현.py' method = 'post' enctype = 'multipart/form-data'>
+                    <input type = 'file' name = 'img_file' accept = 'image/png, image/jpeg'><br>
+                    <input type = 'text' name = 'message' placeholder = "전달 메시지"><br>
+                    <input type = 'submit'>
+                </form>    
+                <hr>
+                예측 결과<br>
+                {}
+            </fieldset>
+    </center>
+</body>
+</html>
